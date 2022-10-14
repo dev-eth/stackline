@@ -1,0 +1,50 @@
+Create this list of tasks to complete - DONE
+Add HTML and CSS Grid layout to App.js - DONE
+Add JSON file to Redux store - DONE
+Create Product component
+  - Add image from props - DONE
+  - Add title beneat image - DONE
+  - Add subtitle beneath title - DONE
+  - Add <hr> element - DONE
+  - Add tags in between <span> elements - DONE
+  - Add <hr> element - DONE
+  - Add Overview/Home Icon - DONE
+  - Add Sales/Graph Icon - DONE
+Test Product component - DONE
+Create ProductContainer
+  - Render 1 Product component - DONE
+  - Pass in src, title, subtitle, tags, and icons to Product component - DONE
+  - Render ProductContainer in App.js - DONE
+  - Style component - DONE
+Test ProductContainer - DONE
+Create Table component
+  - Add table headings: "Week Ending", "Retail Sales", "Wholesale Sales", "Units Sold", "Retailer Margin" - DONE
+  - Table rows should be passed in as props - DONE
+Test Table component - DONE
+Create TableContainer 
+  - Render 1 Table component - DONE
+  - Create a variable "rows" by mapping over JSON sales data. Pass this to Table as a prop - DONE
+  - Render TableContainer in App.js - DONE
+Test TableContainer - DONE
+Create ChartContainer
+  - Use recharts for graph - DONE
+  - Render ChartContainer in App.js - DONE
+Create Header component
+  - Add Stackline logo - DONE
+Add sort functionality
+  - Create and test SORT action - DONE
+  - Add sort logic to reducer to update data held in state - DONE
+Test reducer
+
+Styling
+  - Match color scheme from mockup - DONE
+  - Add border radius to tags in Product component - DONE
+  - Add drop down arrows to Table headers - DONE
+  - Add Graph title 
+  - Add lines between rows in table - DONE
+  - Add box shadow to containers - DONE
+
+Deploy to gh-pages - DONE
+
+Test in Chrome, Safari, Firefox - DONE
+

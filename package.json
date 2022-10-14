@@ -1,0 +1,41 @@
+{
+  "name": "stackline",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Levi",
+    "email": "levirahsh@gmail.com",
+    "github": "https://github.com/dev-eth",
+    "website": "https://dev-eth.github.io"
+  },
+  "homepage": "https://dev-eth.github.io/stackline",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "0.1.0-11",
+    "axios": "^0.18.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "recharts": "^1.1.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "gh-pages": "^1.2.0",
+    "prettier": "^1.13.7",
+    "redux-mock-store": "^1.5.3"
+  }
+}
