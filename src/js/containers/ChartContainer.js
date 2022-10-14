@@ -12,13 +12,15 @@ class ChartContainer extends Component {
   render() {
     return (
       <div id="chart">
-        <LineChart width={900} height={400} data={this.props.data.sales}>
+        <LineChart width={900} height={250} data={this.props.data.sales}>
           <XAxis
             dataKey="weekEnding"
             axisLine={false}
             tickLine={false}
             tickFormatter={date =>
-              moment(date, "YYYY-MM-DD HH:mm:ss").format("MMMM")
+              moment(date, "YYYY-MM-DD")
+                .format("MMM")
+                .toUpperCase()
             }
           />
           <Tooltip />
