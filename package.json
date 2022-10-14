@@ -8,7 +8,7 @@
     "github": "https://github.com/dev-eth",
     "website": "https://dev-eth.github.io"
   },
-  "homepage": "https://dev-eth.github.io/stackline",
+  "homepage": "",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
