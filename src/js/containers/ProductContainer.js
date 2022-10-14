@@ -5,6 +5,7 @@ import { faHome, faChartBar } from "@fortawesome/free-solid-svg-icons";
 import Product from "../components/Product";
 
 class ProductContainer extends Component {
+  // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
   }
