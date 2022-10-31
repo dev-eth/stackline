@@ -8,28 +8,28 @@ const Table = props => {
           <tr>
             <th scope="col" onClick={() => props.sortBy("weekEnding")}>
               <div>
-                WEEK ENDING
+                Week Ending
                 <span className="arrowIcon"> {props.icon}</span>
               </div>
             </th>
             <th scope="col" onClick={() => props.sortBy("retailSales")}>
               <div>
-                RETAIL SALES <span className="arrowIcon">{props.icon}</span>
+                Retail Sales <span className="arrowIcon">{props.icon}</span>
               </div>
             </th>
             <th scope="col" onClick={() => props.sortBy("wholesaleSales")}>
               <div>
-                WHOLESALE SALES <span className="arrowIcon">{props.icon}</span>
+                Whole Sales <span className="arrowIcon">{props.icon}</span>
               </div>
             </th>
             <th scope="col" onClick={() => props.sortBy("unitsSold")}>
               <div>
-                UNITS SOLD <span className="arrowIcon">{props.icon}</span>
+                Units Sales <span className="arrowIcon">{props.icon}</span>
               </div>
             </th>
             <th scope="col" onClick={() => props.sortBy("retailerMargin")}>
               <div>
-                RETAILER MARGIN <span className="arrowIcon">{props.icon}</span>
+                Retailer Margin <span className="arrowIcon">{props.icon}</span>
               </div>
             </th>
           </tr>
